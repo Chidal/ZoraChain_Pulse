@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { TokenCard } from './TokenCard';
-import { Chart } from './Chart';
+import TokenCard from './TokenCard';
+import Chart from './Chart';
 import { useTokenData } from '../hooks/useTokenData';
 import { useSentimentAnalysis } from '../hooks/useSentimentAnalysis';
 
@@ -13,7 +13,7 @@ export const Dashboard = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="container mx-auto p-6"
+      className="container mx-auto p-6" // Should now be type-safe
     >
       <h1 className="text-3xl font-bold mb-6">ZoraChain Pulse</h1>
       {loading && <p className="text-center text-xl">Loading tokens...</p>}

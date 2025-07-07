@@ -7,7 +7,7 @@ interface TokenCardProps {
   sentimentScore?: number;
 }
 
-export function TokenCard({ token, sentimentScore }: TokenCardProps) {
+export default function TokenCard({ token, sentimentScore }: TokenCardProps) {
   const marketCap = token.marketCap
     ? formatEther(BigInt(Math.floor(Number(token.marketCap)).toString()))
     : 'N/A';
@@ -17,7 +17,7 @@ export function TokenCard({ token, sentimentScore }: TokenCardProps) {
 
   return (
     <motion.div
-      className="bg-gray-800 p-4 rounded-lg shadow-lg"
+      className="bg-gray-800 p-4 rounded-lg shadow-lg" // Should now be type-safe
       whileHover={{ scale: 1.05 }}
       transition={{ type: 'spring' }}
     >
