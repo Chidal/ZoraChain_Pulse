@@ -1,6 +1,8 @@
 # ZoraChain Pulse: Project Overview
 
-**ZoraChain Pulse** is a decentralized analytics dashboard that empowers traders and investors with real-time insights into Base blockchain tokens using Zora’s Coins SDK. It visualizes token metrics (market cap, volume, holders) and integrates AI-driven sentiment analysis for predictive market trends. Built to offer a modern, responsive UI with smooth animations and robust error handling. The app addresses the demand for transparent DeFi tools, enhancing user decision-making with blockchain data and AI insights, making it a standout.
+**ZoraChain Pulse** is a decentralized analytics dashboard that empowers traders and investors with real-time insights into Base blockchain tokens using Zora’s Coins SDK. It visualizes token metrics (market cap, volume, holders) and integrates AI-driven sentiment analysis for predictive market trends. 
+
+Built to offer a modern, responsive UI with smooth animations and robust error handling. The app addresses the demand for transparent DeFi tools, enhancing user decision-making with blockchain data and AI insights, making it a standout.
 
 #### Importance to the Blockchain Ecosystem
 - **Base Blockchain**: Leverages Base’s scalability for low-cost, high-speed data queries, driving adoption in DeFi.
