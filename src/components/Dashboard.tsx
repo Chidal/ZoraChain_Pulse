@@ -6,6 +6,7 @@ import { useSentimentAnalysis } from '../hooks/useSentimentAnalysis';
 import { useState, useEffect } from 'react';
 import { Zora20Token } from '../types';
 import { formatEther } from 'viem';
+import { AIChatbot } from './AIChatbot'
 
 const TutorialOverlay = () => (
   <motion.div
